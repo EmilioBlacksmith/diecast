@@ -25,14 +25,16 @@ Think of it as **Behavior-Driven Development (BDD) for LLMs.**
 *   **BYOJ (Bring Your Own Judge):** Use your own tokens and preferred models (local or cloud) to act as the evaluator for your test suites.
 *   **Framework Agnostic:** Built-in interceptors for LiteLLM, LangGraph, CrewAI, and more.
 
-## Quick Start (Coming Soon)
+## Quick Start
 
 ```bash
-# Install Diecast (Wait for the first PyPI release!)
-pip install diecast
+# Clone and install
+git clone https://github.com/EmilioBlacksmith/diecast.git
+cd diecast
+uv sync
 
-# Trace your agent with zero config
-diecast run -- uv run agent.py
+# Run the CLI
+diecast --help
 ```
 
 ## The Workflow
